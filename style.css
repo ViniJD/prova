@@ -1,0 +1,57 @@
+*{
+    color: white;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2{
+    color: greenyellow;
+}
+
+header {
+ width: 100%;
+ background-color: gray;
+ margin-bottom: 10px;
+}
+
+a {
+    margin: 5px;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 2px solid greenyellow;
+    padding: 10px;
+}
+
+.info{
+ color: white;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: greenyellow;
+    border-style: solid;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.projetos{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+button {
+    color: black;
+    width: 65px;
+}
